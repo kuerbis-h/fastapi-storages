@@ -34,7 +34,7 @@ dynamic = ["version"]
 
 [project.optional-dependencies]
 full = [
-  "Pillow>=10",
+  "Pillow>=11.1.0",
   "sqlalchemy>=1.4",
   "peewee>=3",
 ]
@@ -65,7 +65,7 @@ dependencies = [
   "moto==4.2.11",
   "mypy==1.7.1",
   "peewee>=3",
-  "Pillow==10.1.0",
+  "Pillow==11.1.0",
   "pytest==7.4.3",
   "ruff==0.1.8",
   "sqlalchemy>=1.4",
